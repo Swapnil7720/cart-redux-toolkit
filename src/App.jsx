@@ -12,6 +12,7 @@ function App() {
     <Nav/>
     <Routes>
 
+      <Route path='/cart-redux-toolkit' element={<Cards/>}  />
       <Route path='/' element={<Cards/>}  />
       <Route path='/cart' element={<Cart/>} />
 
